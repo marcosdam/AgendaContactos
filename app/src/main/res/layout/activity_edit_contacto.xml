@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditContactoActivity">
+
+    <EditText
+        android:id="@+id/txtNombreEditContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="@string/nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtApellidosEditContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="@string/apellidos"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtEmpresaEditContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="@string/empresa"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtNombreDireccionEditContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="@string/nombre_direccion"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtProvinciaEditContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="@string/provincia"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtCalleEditContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="@string/calle"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtNumeroEditContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="@string/numero"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtCodigoPostalEditContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="@string/codigo_postal"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtNombreTelefonoEditContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="@string/nombre_telefono"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtNumeroTelefonoEditContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="@string/numero_telefono"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnEditarEditContacto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFEB3B"
+            android:text="@string/editar" />
+
+        <Button
+            android:id="@+id/btnEliminarEditContacto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#F44336"
+            android:text="@string/eliminar" />
+    </LinearLayout>
+
+</LinearLayout>

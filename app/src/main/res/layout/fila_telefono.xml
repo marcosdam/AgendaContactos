@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F1F0ED"
+    android:backgroundTint="#FFEB3B">
+
+    <TextView
+        android:id="@+id/txtNombreTel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:background="#FFEB3B"
+        android:backgroundTint="#FFEB3B"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtNumeroTel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:background="#FFEB3B"
+        android:backgroundTint="#FFEB3B"
+        android:text="TextView" />
+</LinearLayout>
